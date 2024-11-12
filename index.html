@@ -6,21 +6,24 @@
     <title>SIH ki MKC</title>
     <style>
         body {
+            margin: 0;
+            padding: 0;
+            background-color: #ffffff;
             display: flex;
             justify-content: center;
             align-items: center;
             height: 100vh;
-            background-color: #f0f0f0;
+            overflow: hidden;
         }
         .marquee {
-            font-size: 5rem; /* Big font size */
+            font-size: 100px; /* Font size above 72px */
             font-weight: bold;
-            color: #ff0000; /* You can change the color if needed */
+            color: #000000; /* Black color */
         }
     </style>
 </head>
 <body>
-    <marquee class="marquee" behavior="scroll" direction="left">
+    <marquee class="marquee" behavior="scroll" direction="left" scrollamount="15">
         SIH ki MKC
     </marquee>
 </body>
